@@ -7,8 +7,8 @@ docker-compose.yaml file
   - Run "docker-compose up"
   - wait till kafka cluster starts
   - Now you can connect to kafka cluster using any kafka tool 
-    zookeeper  hostname:22181 or hostname:32181 or hostname:42181
-    broker     hostname:19092 or hostname:29092 or hostname:39092
+  - zookeeper  hostname:22181 or hostname:32181 or hostname:42181
+  - broker     hostname:19092 or hostname:29092 or hostname:39092
   - Zookeeper data and logs can be found in /zoo1 , /zoo2, /zoo3. Directories on host
   - Kafka data can be found in /kafka1, /kafka2, /kafka3 on host
 
